@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<html>
+<head >
+<meta charset="UTF-8">
+<title>
+老司机解析
+</title>
+</head>
+<body bgcolor="#2292DD">
+<center>
+<br/>
+<br/>
+<br/>
+<input id="txt" style='font-size:30px'>
+<br/>
+<br/>
+<select style='font-size:30px' id="slc">
 
-You can use the [editor on GitHub](https://github.com/wanglaihuai/wanglaihuai.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<option value="http://www.wmxz.wang/B/index.php?url=">接口1</option>
+<option value="https://api.47ks.com/webcloud/?url=">接口2</option>
+<option value="http://000o.cc/jx/ty.php?url=">接口3</option>
+<option value="http://www.yydy8.com/common/?url=">接口4</option>
+<option value="http://jx.71ki.com/index.php?url=">接口5</option>
+<option value="http://47.89.49.245/video.php?url=">接口6</option> 
+<option value="http://player.gakui.top/?url=">接口7</option> 
+<option value="http://www.97zxkan.com/jiexi/97zxkanapi.php?url=">接口8</option> 
+<option value="http://www.wmxz.wang/video.php?url=">芒果专用接口（超清）</option>
+</select>
+<br/>
+<br/>
+<input type="button"  style='font-size:30px'  value="解 析" onclick="sub()" style="width:100;height:40;">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</center>
+</body>
+<script>      
+function sub(){
+var content = document.getElementById("txt").value;
+var ads=document.getElementById("slc").value;  
+window.open(ads+content);
+}
+</script>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wanglaihuai/wanglaihuai.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
