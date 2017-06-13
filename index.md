@@ -14,16 +14,13 @@
 <br/>
 <br/>
 <select style='font-size:30px' id="slc">
-
-<option value="http://www.wmxz.wang/B/index.php?url=">接口1</option>
-<option value="https://api.47ks.com/webcloud/?url=">接口2</option>
-<option value="http://000o.cc/jx/ty.php?url=">接口3</option>
-<option value="http://www.yydy8.com/common/?url=">接口4</option>
-<option value="http://jx.71ki.com/index.php?url=">接口5</option>
-<option value="http://47.89.49.245/video.php?url=">接口6</option> 
-<option value="http://player.gakui.top/?url=">接口7</option> 
-<option value="http://www.97zxkan.com/jiexi/97zxkanapi.php?url=">接口8</option> 
-<option value="http://www.wmxz.wang/video.php?url=">芒果专用接口（超清）</option>
+<option value="https://api.47ks.com/webcloud/?url=">接口1</option>
+<option value="http://000o.cc/jx/ty.php?url=">接口2</option>
+<option value="http://www.yydy8.com/common/?url=">接口3</option>
+<option value="http://jx.71ki.com/index.php?url=">接口4</option>
+<option value="http://47.89.49.245/video.php?url=">接口5</option> 
+<option value="http://player.gakui.top/?url=">接口6</option> 
+<option value="http://www.97zxkan.com/jiexi/97zxkanapi.php?url=">接口7</option> 
 </select>
 <br/>
 <br/>
