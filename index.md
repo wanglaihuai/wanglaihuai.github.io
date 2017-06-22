@@ -1,9 +1,7 @@
 <html>
 <head >
 <meta charset="UTF-8">
-<title>
-老司机解析
-</title>
+<title>老司机解析</title>
 </head>
 <body bgcolor="#2292DD">
 <center>
@@ -20,8 +18,6 @@
 <option value="http://player.gakui.top/?url=">接口6</option> 
 <option value="http://www.97zxkan.com/jiexi/97zxkanapi.php?url=">接口7</option> 
 </select>
-<br/>
-<br/>
 <input type="button"  style='font-size:30px'  value="解 析" onclick="sub()" style="width:100;height:40;">
 </center>
 </body>
