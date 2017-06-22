@@ -4,11 +4,12 @@
 <title>老司机解析</title>
 </head>
 <body bgcolor="#2292DD">
-<h1>老司机解析</h1>
-<br />
-<br />
-<br />
+
 <center>
+<p>老司机解析</p>
+<br />
+<br />
+<br />
 <input id="txt" style='font-size:30px'>
 <br />
 <br />
