@@ -7,6 +7,9 @@
 </head>
 <body bgcolor="#2292DD">
 <center>
+<br />
+<br />
+<br />
 <p>老司机解析</p>
 <br />
 <br />
@@ -28,7 +31,6 @@
 <input style="height:100%;font-size:18px" type="button" value="解 析" onclick="sub()">
 </center>
 </body>
-
 <script>      
 function sub(){
 var content = document.getElementById("txt").value;
