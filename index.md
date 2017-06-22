@@ -7,13 +7,11 @@
 </head>
 <body bgcolor="#2292DD">
 <center>
-<br/>
-<br/>
-<br/>
 <input id="txt" style='font-size:30px'>
 <br/>
 <br/>
 <select style='font-size:30px' id="slc">
+<potion value="http://aikan-tv.com/?url=">默认接口</option>
 <option value="https://api.47ks.com/webcloud/?url=">接口1</option>
 <option value="http://000o.cc/jx/ty.php?url=">接口2</option>
 <option value="http://www.yydy8.com/common/?url=">接口3</option>
@@ -25,7 +23,6 @@
 <br/>
 <br/>
 <input type="button"  style='font-size:30px'  value="解 析" onclick="sub()" style="width:100;height:40;">
-
 </center>
 </body>
 <script>      
@@ -35,5 +32,4 @@ var ads=document.getElementById("slc").value;
 window.open(ads+content);
 }
 </script>
-
 </html>
